@@ -22,7 +22,6 @@ def process_files(num_files):
 
         # Sample 30 data points
         sampled_data = sample_data(file_path)
-        print("bijoy")
         print(sampled_data)
         if sampled_data is not None:
             # Detect outliers
